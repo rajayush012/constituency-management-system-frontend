@@ -1,0 +1,35 @@
+.text-link{
+    color: white !important;
+}
+
+.text-link:hover{
+    text-decoration: none;
+}
+
+.cardbox{
+    display: inline-block;
+    margin: 50px;
+    border-radius: 5px;
+   
+}
+
+.containerbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+
+.cardbox:hover{
+   box-shadow:  3px 3px 5px 6px #ccc;
+}
+
+
+
+.blink:hover{
+    text-decoration: none;
+    color: white !important;
+}
